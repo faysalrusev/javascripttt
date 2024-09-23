@@ -58,7 +58,54 @@ alert("you are adult")
 
 //3rd question answer
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x=parseInt(prompt("enter the number: "));
+        switch(x){
 
+            case 1:{
+                alert("saturday");
+                break;
+            }
+            case 2:{
+                alert("sunday");
+                break;
+            } 
+            case 3:{
+                alert("monday");
+                break;
+            } 
+            case 4:{
+                alert("tuesday");
+                break;
+            }
+            case 5:{
+                alert("wednesday");
+                break;
+            }
+            case 6:{
+                alert("thursday");
+                break;
+            }
+            case 7:{
+                alert("fridy");
+                break;
+            }
+            default:{
+                alert("invalid input");
+                break;
+            }
+        }
+    </script>
+</body>
+</html>
 
 
 
